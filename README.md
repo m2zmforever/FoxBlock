@@ -1,7 +1,7 @@
 
 # Fox-Block Ad Blocker
 
-A professional, privacy-friendly ad blocker browser extension for Chrome, Edge, and Firefox. Blocks banner ads, popups, video ads, and tracking scripts using both network and DOM-based techniques.
+A basic, privacy-friendly ad blocker browser extension for Chrome, Edge, and Firefox. Blocks banner ads, popups, video ads, and tracking scripts using both network and DOM-based techniques.
 
 ## Features
 - Blocks banner ads, popups, video ads, and trackers
@@ -51,8 +51,9 @@ Fox-Block/
 └── README.md
 ```
 
-## License
-MIT License
+## Note
+Needs improvement. Fox-block can do wrong things on websites.
+
 
 ## Credits
 - Default blocklist and selectors inspired by [EasyList](https://easylist.to/)

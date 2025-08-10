@@ -57,7 +57,7 @@ Needs improvement. Fox-block can do wrong things on websites.
 
 ## Credits
 - Default blocklist and selectors inspired by [EasyList](https://easylist.to/)
-
+- m2_zm
 ---
 
 **zmBlock** is open source and privacy-respecting. No data is collected or sent anywhere.

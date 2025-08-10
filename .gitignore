@@ -1,0 +1,13 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore extension packaging output
+*.crx
+*.pem
+
+# Ignore node_modules if used for tooling
+node_modules/
+
+# Ignore log files
+*.log

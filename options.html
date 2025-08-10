@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>zmBlock Options</title>
+  <link rel="stylesheet" href="options.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    h1 { font-size: 1.5em; }
+    label { display: block; margin: 1em 0 0.5em; }
+    input[type="text"] { width: 300px; }
+    .list { margin-bottom: 1em; }
+    .list li { margin-bottom: 0.3em; }
+    .remove { color: #d32f2f; cursor: pointer; margin-left: 0.5em; }
+    .save { background: #388e3c; color: #fff; border: none; padding: 0.5em 1em; cursor: pointer; }
+    .save:disabled { background: #aaa; }
+  </style>
+</head>
+<body>
+  <h1>Fox-Block Ad Blocker Options</h1>
+  <label><input type="checkbox" id="enabled"> Enable Ad Blocking</label>
+  <h2>Blocked Domains</h2>
+  <ul id="domainList" class="list"></ul>
+  <input type="text" id="domainInput" placeholder="Add domain (e.g. example.com)">
+  <button id="addDomain">Add Domain</button>
+  <h2>Blocked CSS Selectors</h2>
+  <ul id="selectorList" class="list"></ul>
+  <input type="text" id="selectorInput" placeholder="Add CSS selector">
+  <button id="addSelector">Add Selector</button>
+  <br><br>
+  <button class="save" id="save">Save Changes</button>
+  <span id="status"></span>
+  <script src="options.js"></script>
+</body>
+</html>

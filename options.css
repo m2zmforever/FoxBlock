@@ -1,0 +1,3 @@
+body { background: #fafafa; }
+.save { border-radius: 3px; }
+.remove:hover { text-decoration: underline; }
